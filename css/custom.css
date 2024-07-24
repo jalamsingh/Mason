@@ -1,0 +1,413 @@
+html, body {
+    overflow-x: hidden;
+}
+body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Karla', sans-serif;
+	background: #fff;
+	font-size: 14px;
+	font-weight:400;
+	color: #878787;
+	position: relative;
+}
+body button.focus, .btn:focus {
+    outline: none !important;
+    outline-offset: 0 !important;
+}
+ul, ol, *{
+	margin:0;
+	padding:0;
+}
+a {
+	text-decoration: none !important;
+	display:inline-block;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+    color: #000;
+}
+img {
+	max-width: 100%;
+}
+::placeholder{
+	color: #ccc !important;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #ccc;
+}
+::-webkit-scrollbar-thumb {
+  background: #ffc947;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #dca624;
+}
+button{outline: none !important;}
+p {
+    font-size: 16px;
+    line-height: 27px;
+	margin:0;
+	color:#878787;
+}
+.white_txt {color:#fff !important;}
+.black_txt {color:#242424 !important;}
+.blue_txt {color:#3a0763 !important;}
+.pink_txt {color:#f862de !important;}
+.orange_txt {color:#d7933b !important;}
+
+.txt_upr {text-transform: uppercase;}
+.bold_txt {font-weight:bold;}
+.lato_semibold {font-weight:700;}
+.reg_font {font-weight:normal;}
+.lato_font {font-family: 'Lato', sans-serif;}
+.roboto_font {font-family: 'Roboto', sans-serif;}
+.container{max-width: 1300px;}
+.container_1170{max-width: 1170px;}
+.container_1120{max-width: 1120px;}
+/* Header css start here ===== */
+.header {
+    transition: ease-in-out 0.3s;
+    width: 100%;
+    padding: 0 15px;
+    background: #fff;
+    border-bottom: 1px solid #e1e1e1;
+}
+.dark_header {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+.header .navbar {
+    padding: 0;
+    background: none !important;
+    max-width: 1305px;
+    margin: 0 auto;
+}
+.header .navbar-brand {
+    padding: 0;
+    margin-right: 0;
+}
+.header .navbar-brand span {
+    margin-left: 40px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.header .navbar-collapse .navbar-nav {
+    padding: 44px 35px;
+    border-left: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+}
+.header .navbar-nav > li {
+    padding: 0 25px;
+}
+.header .navbar-nav li a {
+    font-size: 16px;
+    color: #242424 !important;
+    padding: 0 !important;
+    transition: ease-in-out 0.3s;
+    font-weight: 400;
+}
+.btn {
+    font-size: 16px;
+    line-height: 45px;
+    color: #fff;
+    padding: 0 30px;
+    border-radius: 21px;
+    border: none;
+    font-weight: normal;
+    white-space: nowrap;
+    background: #3a0763;
+    font-family: 'Roboto', sans-serif;
+}
+.btn img {
+    margin-left: 10px;
+}
+.outline_btn {
+    padding: 0 40px;
+}
+.outline_btn{
+    background: none;
+    border: 2px solid #3a0763;
+    line-height: 41px;
+    color: #3a0763;
+}
+.btn:hover {
+	color: #fff !important;
+    background:#1c69b4;
+}
+/* Header css end here ===== */
+
+/* Banner-section css start here ===== */
+.bnr_box {
+    padding: 125px 0 430px;
+    background: url(../img/banner_bg.png) no-repeat;
+    background-position: center top;
+}
+.head_h1 {
+    margin: 0 0 30px;
+    font-size: 56px;
+    line-height: 70px;
+    font-weight: 500;
+}
+.banner_text .btn:last-child {
+    margin-left: 20px;
+}
+.social_icons {
+    max-width: 260px;
+    height: 270px;
+    margin-left: auto;
+}
+.social_icons h5 {
+    font-weight: normal;
+    font-size: 16px;
+    color: #6b6b6b;
+}
+.social_icons a {
+    transition: ease-in-out 0.5s;
+    position: absolute;
+}
+.social_icons a:hover {
+    transform: scale(1.2);
+}
+.twitter {
+    right: 40px;
+    top: -48px;
+}
+.swap {
+    right: 0;
+    top: 40px;
+	max-width: 100px;
+}
+.insta {
+    left: -30px;
+    top: 90px;
+}
+.git {
+    right: 90px;
+    top: 95px;
+}
+.send {
+    bottom: 0;
+    left: 65px;
+}
+
+.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+/* Banner-section css end here ===== */
+
+/* About-section css start here ===== */
+.about_sec {
+    padding-top: 520px;
+}
+.row_mT {
+    margin-top: -80px;
+}
+.about_txt h3 {
+    max-width: 410px;
+}
+.head_h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    line-height: 36px;
+}
+.about_txt p {
+    font-size: 16px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #4d1667;
+    margin-bottom: 25px;
+}
+.blue_btn {
+    background: #1c69b4;
+    box-shadow: 0 2px 10px 2px rgb(28 105 180 / 45%);
+}
+.about_btm {
+    max-width: 790px;
+    margin: -70px auto 0;
+}
+.about_btm p {
+    font-size: 16px;
+    line-height: 32px;
+}
+.line {
+    max-width: 464px;
+    height: 1px;
+    background: #4d1667;
+    margin: 15px auto;
+}
+/* About-section css end here ===== */
+
+/* Token-section css start here ===== */
+.token_sec {
+    padding: 125px 0 0;
+    background: url(../img/token_bg.png) no-repeat;
+    background-position: center;
+    margin-top: -300px;
+}
+.main_head {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.token_row {
+    margin-top: -300px;
+}
+.token_box {
+    border-radius: 10px;
+    background-color: rgb( 255, 255, 255 );
+    box-shadow: 9px 15.588px 40px 18px rgb(0 0 0 / 5%);
+    max-width: 470px;
+    overflow: hidden;
+    margin-top: 25px;
+}
+.token_box h3 {
+    margin: 0;
+    background: #1d0045;
+    font-size: 26px;
+    padding: 23px 45px;
+    box-shadow: 9px 15.588px 40px 18px rgb(0 0 0 / 5%);
+}
+.token_box div {
+    padding: 35px 40px;
+}
+.token_box h2 {
+    font-size: 36px;
+    margin: 0;
+}
+.token_box p {
+    margin: 15px 0 30px;
+}
+.about_link {
+    margin-top: 60px;
+}
+.about_link a {
+    font-size: 16px;
+    margin: 0 25px;
+	color: #c74eba;
+}
+.about_link a > span {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.about_link a > span > span {font-weight:900;}
+/* Token-section css end here ===== */
+
+
+
+/* Feature-section css start here ===== */
+.feature_sec {
+    background: url(../img/nft_bg.png) no-repeat;
+    padding: 150px 0 115px;
+    background-position: bottom right -100px;
+}
+.nft_top {
+    top: -100px;
+    right: 0;
+}
+.nft_btm {
+    left: 0;
+    bottom: 0;
+}
+.nft_right {
+    right: 0;
+    bottom: -50px;
+}
+.feature_sec .main_head {
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 15px;
+}
+.feature_sec .main_head img {
+    width: 50px;
+	margin-right: 15px;
+}
+.feature_sec p {
+    font-size: 16px;
+    line-height: 32px;
+    max-width: 315px;
+}
+.feature_sec .btn {
+    margin-top: 45px;
+}
+/* Feature-section css end here ===== */
+
+/* Plan-section css start here ===== */
+.planFooter_bg {
+    background: url(../img/planFooter_bg.png) no-repeat;
+    background-position: center top;
+    padding: 250px 0 100px;
+    margin-top: -90px;
+}
+.plan_sec {
+    padding: 0 0 160px;
+}
+.plan_sec .row {
+    margin: 0 -45px;
+}
+.plan_sec .row > div{
+    padding: 0 45px;
+}
+.plan_sec .row > div:first-child, .plan_sec .row > div:last-child {margin-top:20px;}
+.plan_sec .main_head {
+    margin-bottom: 50px;
+}
+.plan_box {
+}
+.plan_box h2 {
+    font-size: 24px;
+    margin:10px 0 20px;
+    text-shadow: 2px 1px 20px;
+	font-weight:500;
+	color: #1c69b4;
+}
+.plan_box h2 img {
+    position: relative;
+    left: -25px;
+}
+.plan_box li {
+    font-size: 20px;
+    font-weight: normal;
+    position: relative;
+    margin-bottom: 12px;
+}
+/* Plan-section css end here ===== */
+
+/* Footer-section css start here ===== */
+
+.footer_sec .head_h6 {
+    font-size: 17px;
+    line-height: 18px;
+    margin: 0 0 15px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:bold;
+}
+.footer_sec a {
+    line-height: 46px;
+    font-size: 16px;
+}
+.footer_sec p, .footer_sec a {
+    color: #fff;
+    font-size: 17px;
+	font-weight:300;
+	font-family: 'Roboto', sans-serif;
+}
+.copy_right {margin-top:115px;}
+.copy_right p {
+    font-size: 18px;
+	opacity: 0.5;
+}
+
+/* Footer-section css end here ===== */

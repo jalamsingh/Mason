@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Evogria';
+  src: url('Evogria.eot');
+  src: url('Evogria.eot?#iefix') format('embedded-opentype'),
+       url('Evogria.ttf') format('truetype'),
+       url('Evogria.woff') format('woff'),
+       url('Evogria.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
